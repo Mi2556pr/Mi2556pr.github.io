@@ -1,31 +1,90 @@
+html,body{
+    font-family:"Yu Mincho";
+    font-weight: 500;
+}
+
 h1 {
-    color: rgb(101, 247, 222);
+    color: rgb(185, 245, 239);
     }
 body{
-    background-color: rgb(253, 174, 178);
+    background-color: #fccbcc;;
+
 }
-li{
+.header li{
     list-style:none;
-    list-style:none;
-    padding:10px 20px 20px 20px
+    
+    padding:5px 20px 20px 20px;
+    
     }
- ul{
+
+ul{
     display:flex;
- }   
+    list-style:none;
+ }  
+
     .header{
         
             display:flex;
-            background-color: rgb(101, 247, 222);
+            background-color: #d3f9f5ff;
             height: 50px;
-            color:rgb(106, 107, 107);
-            padding:10px 20px 20px 20px
+            color:#d6d6d6;
+            padding:20px 20px 20px 20px;
+            font-size: 22px;
             }
-    .about p{
-        
-            color:#fff
-        
+    span{
+        margin-right: 300px;
     }
-    .about img{
+    p{
+        
+            color:#fff;
+            font-size: 23px;
+    }
+    .stpr{
+    display: flex;
+    }
+    .stpr img{
+    height: 300px;
+    width: 480px;
+    margin-left: 500px;
+    }
     
 
+    .second ul{
+    padding: 0px;
+    font-size: 24px;
+    }
+    .second li{
+    padding-right: 30px;
+    }
+    .root{
+    color: #ffecb5;
+    }
+    .colon{
+    color:#a3c4fd;
+    }
+    .rinu{
+    color:#e99292;
+    }
+    .satomi{
+    color: #ff9be3;
+    }
+    .jel{
+    color:#f6b26b;
+    }
+    .nanamori{
+    color:#cba7d6;
+    }
+    .namahousou{
+    display: flex;
+    }
+    .namahousou img{
+    height: 300px;
+    width: 450px;
+    margin-left: 100px;
+    }
+    .kousiki{
+    color:#f58b8b;
+    }
+    h2{
+    color:#f58b8b;
     }
