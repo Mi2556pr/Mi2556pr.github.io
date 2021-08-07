@@ -32,7 +32,7 @@ ul{
             display:flex;
             background-color: #d3f9f5ff;
             height: 50px;
-            color:#bebebe;
+            color:#afafaf;
             padding:20px 20px 20px 20px;
             font-size: 22px;
             }
@@ -104,5 +104,5 @@ ul{
     color:#fda0c4;
     }
     .header a{
-    color:#c9c8c8;
+    color:#afafaf;
     }
