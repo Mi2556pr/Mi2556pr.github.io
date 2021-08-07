@@ -1,14 +1,19 @@
 html,body{
     font-family:"Yu Mincho";
     font-weight: 500;
-}
+   }
 
 h1 {
-    color: rgb(185, 245, 239);
+    color: #d3f9f5ff;
+    text-shadow:1px 1px 0 rgb(148, 130, 130), -1px -1px 0 rgb(148, 130, 130),
+    -1px 1px 0 rgb(148, 130, 130), 1px -1px 0 rgb(148, 130, 130),
+    0px 1px 0 rgb(148, 130, 130),  0-1px 0 rgb(148, 130, 130),
+    -1px 0 0 rgb(148, 130, 130), 1px 0 0 rgb(148, 130, 130);
     }
 body{
-    background-color: #fccbcc;;
-
+    background-image:url(https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGxuQACxqi0fkbGNWy3I1FNV8LvV8Ruk1udChO8efbB8UNtfxJZy2Z8MkwMxHGIGTeTMwqx4j6JcYDIcqw_MaPg4YSsMhnpaCpUeVPyG9yk9X80fLBGJ23w_uA-JcwWHMSRG7VP5s-UcegyJC-OZ3nXMuKtVajSOCYe7GRgJtAHcL/maxresdefault.jpg?errorImage=false);
+    background-repeat: repeat;
+    background-size: 900px;
 }
 .header li{
     list-style:none;
@@ -27,7 +32,7 @@ ul{
             display:flex;
             background-color: #d3f9f5ff;
             height: 50px;
-            color:#c9c8c8;
+            color:#bebebe;
             padding:20px 20px 20px 20px;
             font-size: 22px;
             }
@@ -36,7 +41,7 @@ ul{
     }
     p{
         
-            color:#fff;
+            color:rgb(148, 130, 130);
             font-size: 23px;
     }
     .stpr{
@@ -52,6 +57,10 @@ ul{
     .second ul{
     padding: 0px;
     font-size: 24px;
+    text-shadow:1px 1px 0 rgb(148, 130, 130), -1px -1px 0 rgb(148, 130, 130),
+    -1px 1px 0 rgb(148, 130, 130), 1px -1px 0 rgb(148, 130, 130),
+    0px 1px 0 rgb(148, 130, 130),  0-1px 0 rgb(148, 130, 130),
+    -1px 0 0 rgb(148, 130, 130), 1px 0 0 rgb(148, 130, 130);
     }
     .second li{
     padding-right: 30px;
@@ -63,10 +72,10 @@ ul{
     color:#a3c4fd;
     }
     .rinu{
-    color:#e99292;
+    color:#eea0a0;
     }
     .satomi{
-    color: #ff9be3;
+    color: #fabbe8;
     }
     .jel{
     color:#f6b26b;
@@ -79,12 +88,21 @@ ul{
     }
     .namahousou img{
     height: 300px;
-    width: 450px;
-    margin-left: 100px;
+    width: 480px;
+    margin-left: 90px;
     }
     .kousiki{
-    color:#f58b8b;
+    color:#fd8eb8;
     }
     h2{
     color:#f58b8b;
+    }
+    .second a{
+    color:rgb(112, 212, 252);
+    }
+    .third a{
+    color:#fda0c4;
+    }
+    .header a{
+    color:#c9c8c8;
     }
